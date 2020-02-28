@@ -1,0 +1,33 @@
+{% from "govuk/components/button/macro.njk" import govukButton %}
+
+{% if shouldShowNewCookieMessage %}
+    <div class="app-cookie-banner-new">
+        <div class="govuk-width-container">
+            <div class="govuk-grid-row">
+                <div class="govuk-grid-column-two-thirds">
+                    <div>
+                        <span class="govuk-heading-m">Tell us whether you accept cookies</span>
+                        <p class="govuk-body">We use <a class="govuk-link" href="/cookie-consent">cookies to collect
+                            information</a> about how you use GOV.UK. We use this information to make the website work
+                            as well as possible and improve government services.</p>
+                    </div>
+                    <div class="">
+                        <div class="govuk-grid-column-full govuk-grid-column-one-half-from-desktop">
+                            {{ govukButton({
+                            text: "Accept all cookies",
+                            classes: "app-cookie-banner-new__button"
+                            }) }}
+                        </div>
+                        <div class="govuk-grid-column-full govuk-grid-column-one-half-from-desktop">
+                            {{ govukButton({
+                              text: "Set cookie preferences",
+                              classes: "app-cookie-banner-new__button",
+                              href: "/cookie-consent"
+                            }) }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
