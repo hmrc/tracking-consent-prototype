@@ -19,7 +19,7 @@
 .app-cookie-banner-new__button {
   width: 100%;
 
-  @media (min-width: 48.0625em) {
+  @include govuk-media-query($from: tablet) {
     width: 90%;
   }
 }

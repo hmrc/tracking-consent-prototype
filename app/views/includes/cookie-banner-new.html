@@ -1,6 +1,6 @@
 {% from "govuk/components/button/macro.njk" import govukButton %}
 
-{% if shouldShowNewCookieMessage %}
+{% if not shouldHideNewCookieMessage %}
     <div class="app-cookie-banner-new">
         <div class="govuk-width-container">
             <div class="govuk-grid-row">
