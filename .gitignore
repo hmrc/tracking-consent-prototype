@@ -1,4 +1,5 @@
-
+public
+.env
 logs
 project/project
 project/target
@@ -21,5 +22,4 @@ node_modules/
 npm-debug.log
 yarn-debug.log
 yarn-error.log
-
-    
+/lib/extensions/_extensions.scss
