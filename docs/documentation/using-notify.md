@@ -22,7 +22,7 @@ To get a key:
 - go to the ‘API integration’ page
 - click ‘API keys’
 - click the ‘Create an API’ button
-- choose the ‘Team and whitelist’ option
+- choose the ‘Team and guest list’ option
 - copy the key to your clipboard
 
 ### Saving your key on your computer
