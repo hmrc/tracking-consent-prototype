@@ -1,3 +1,4 @@
+This repo is now archived as the prototype has served its function and is no longer required. There are now know vulnerabilites present in this repo, so use it at your own risk.
 
 # tracking-consent-prototype
 
